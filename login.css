@@ -1,0 +1,75 @@
+body{
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background: #fff;
+}
+.dw{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login_header{
+    display: flex;
+    height: 5rem;
+    align-items: center;
+    justify-content: right;
+}
+
+.input_id{
+    width: 398px;
+    margin: 0px auto;
+    border: 0.1rem solid #ddd;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+.input_pw{
+    width: 398px;
+    margin: 0px auto;
+    border: 0.1rem solid #ddd;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+.login_inputs{
+    position: relative;
+    width: 350px;
+    height: 2.4rem;
+    margin-left: 1.2rem;
+    font-size: 1.0rem;
+    order: 2;
+    display: block;
+    padding: 1.5rem 1.4rem;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+.loginInner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6.8rem;
+    padding: 0 2rem 2.5rem;
+}
+.signinstay{
+    width: 400px;
+    position: relative;
+    display: flex;
+    margin-top: 1.6rem;
+    margin-bottom: 1.0rem;
+}
+.login_btn{
+    display: block;
+    width: 400px;
+    height: 3.2rem;
+    border-radius: 1rem;
+    background-color: #1769ff;
+    border: 0;
+}
+.all{
+    max-width: 40rem;
+    margin: 0 auto;
+}
